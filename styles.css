@@ -1,0 +1,183 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fundo preto */
+    color: #fff;
+    text-align: center; /* Centraliza o texto de todas as seções */
+  }
+  
+  header {
+    background-color: rgba(51, 51, 51, 0.8); /* Fundo escuro com um toque de transparência */
+    padding: 20px;
+    border-bottom: 3px solid #6a0dad; /* Borda roxa embaixo do cabeçalho */
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #6a0dad; /* Roxo ao passar o mouse */
+  }
+  
+  /* Seção de "Sobre Nós" */
+  #sobre {
+    padding: 40px;
+    background-color: rgba(26, 26, 26, 0.9); /* Fundo mais escuro com opacidade */
+    color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border: 2px solid #6a0dad; /* Borda roxa */
+    text-align: center; /* Centraliza o texto da seção */
+  }
+  
+  #sobre h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #6a0dad; /* Título roxo */
+  }
+  
+  #sobre p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Seção de Modelos */
+  #modelos {
+    padding: 40px;
+  }
+  
+  .model {
+    margin-bottom: 30px;
+    border: 2px solid #6a0dad; /* Borda roxa nos modelos */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(51, 51, 51, 0.8);
+    text-align: center; /* Centraliza o conteúdo dentro de cada modelo */
+  }
+  
+  .model h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #6a0dad; /* Título roxo */
+  }
+  
+  .model p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .car-image {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 4px solid #6a0dad; /* Borda roxa nas imagens */
+  }
+  
+  /* Seção de Especificações */
+  #especificacoes {
+    padding: 40px;
+    background-color: rgba(34, 34, 34, 0.9); /* Fundo mais escuro */
+  }
+  
+  .spec {
+    margin-bottom: 30px;
+    text-align: left;
+    border: 2px solid #6a0dad; /* Borda roxa nas especificações */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .spec h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #6a0dad; /* Título roxo */
+  }
+  
+  .spec ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+  }
+  
+  .spec ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Seção de Contato */
+  #contato {
+    padding: 40px;
+  }
+  
+  #contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contato input,
+  #contato textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    border: 2px solid #6a0dad; /* Borda roxa nos campos */
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #contato button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #6a0dad; /* Botão roxo */
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contato button:hover {
+    background-color: #8a2be2; /* Tom mais claro de roxo ao passar o mouse */
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 3px solid #6a0dad; /* Borda roxa no topo do rodapé */
+  }
+  
